@@ -1,4 +1,3 @@
-This  is my first Repository.
 Auther - Arpan Pramanik
 # Jarvis - A Python-based Voice Assistant
 
