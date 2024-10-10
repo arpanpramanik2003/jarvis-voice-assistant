@@ -1,25 +1,25 @@
 Auther - Arpan Pramanik
 # Jarvis - A Python-based Voice Assistant
+# Jarvis - A Personal Assistant
 
-This project implements a Python-based voice assistant named "Jarvis", which can perform various tasks such as searching Wikipedia, opening websites, playing music, and providing time and date information.
+## Overview
+Jarvis is a simple personal assistant program built in Python. It utilizes speech recognition and text-to-speech capabilities to interact with the user, providing various functionalities such as searching Wikipedia, opening websites, playing music, and performing system control tasks.
 
 ## Features
-- Greet the user based on the time of day.
-- Recognize voice commands using the `speech_recognition` module.
-- Search for a topic on "Wikipedia" and return a summary.
-- Open websites such as "YouTube", "Google", and "Instagram".
-- Play a random song from a specified music directory.
-- Provide the current time and date.
-- Open "Visual Studio Code".
+- **Voice Recognition**: Understands user commands via speech.
+- **Text-to-Speech**: Responds to the user through voice.
+- **Wikipedia Search**: Searches for information on Wikipedia.
+- **Web Browsing**: Opens websites like YouTube, Google, and Instagram.
+- **Music Playback**: Plays music from the user's local system.
+- **Time and Date**: Provides the current time and date.
+- **Application Launching**: Opens applications such as Visual Studio Code.
+- **System Control**: Shuts down, restarts, or puts the system to sleep.
 
-## Installation
-To run this project, you need the following Python libraries:
-- `pyttsx3` (Text-to-Speech conversion)
-- `speech_recognition` (Recognize and process voice commands)
-- `wikipedia` (Search Wikipedia and retrieve information)
-- `webbrowser` (Open web pages)
-- `os` (Interact with the operating system)
-
-You can install the required libraries by running:
-```bash
-pip install pyttsx3 speechrecognition wikipedia
+## Requirements
+- Python 3.x
+- `pyttsx3`: For text-to-speech conversion.
+- `SpeechRecognition`: For voice recognition.
+- `wikipedia`: To fetch information from Wikipedia.
+- `webbrowser`: For opening web pages.
+- `os`: To interact with the operating system.
+- `random`: To play random music files.
