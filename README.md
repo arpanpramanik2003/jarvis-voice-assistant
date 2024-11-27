@@ -1,5 +1,6 @@
 Auther - Arpan Pramanik
 # Jarvis - A Python-based Voice Assistant
+![Jarvis-Voice-Assistant](image_preview.jpg)
 # Jarvis - A Personal Assistant
 
 ## Overview
